@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: white;
+}
+
+header .header-top nav{
+    float: right;
+}
+
+header .header-top a{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header .header-top nav ul{
+    list-style-type: none;
+}
+
+header .navbar ul li{
+    color: grey;
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main #header-page{
+    display: flex;
+    justify-content: center;
+}
+
+main #header-page .head h1{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main #header-page .head p{
+    width: 500px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main #header-page .head .act-btn-blue{
+    background-color: #6495ED;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+main #header-page .head .act-btn-red{
+    background-color: #DC143C;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+footer .footer-end .first-footer h1{
+   background-color: white;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'PT Sans', sans-serif;
+   padding: 120px 0px 120px 0px;
+}
+
+footer .footer-end .second-footer p{
+    display: inline-block;
+    color: grey;
+    padding: 15px;
+}
+
+footer .footer-end .second-footer .name{
+    float: right;
+}
